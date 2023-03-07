@@ -1,13 +1,13 @@
 package com.example.imageslider;
 
 public class SliderItem {
-    private int image;
+    private String image;
 
-    SliderItem(int image) {
+    SliderItem(String image) {
         this.image = image;
     }
 
-    public int getImage() {
+    public String getImage() {
         return image;
     }
 }
